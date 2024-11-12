@@ -1,0 +1,72 @@
+# .NET Core / .NET 5+ / .NET 6+ / ASP.NET Core
+
+# User-specific files
+.idea/
+.vscode/
+
+# User-specific files for Visual Studio for Mac
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer Cache
+*.cab
+*.tar.gz
+*.tgz
+
+# Windows image file formats
+*.bmp
+*.gif
+*.jpg
+*.jpeg
+*.png
+*.ico
+*.tiff
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Thumbs.db and ehthumbs.db files
+Thumbs.db
+ehthumbs.db
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET 5+ / .NET 6+
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]ist/
+bin/
+obj/
+
+# User-specific files
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer Cache
+*.cab
+*.tar.gz
+*.tgz
+
+# Windows Thumbs.db and ehthumbs.db files
+Thumbs.db
+ehthumbs.db
