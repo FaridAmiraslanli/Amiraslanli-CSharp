@@ -17,13 +17,13 @@ public class Task {
 
     //If the entered name matches “John”, then output “Hello, John”, if not, then output "There is no such name"
 
-    string name = GetValidName().ToUpper();
+    string name = GetValidName().ToLower();
 
-    if (name == "JOHN") {
-      Console.WriteLine("Hello, John");
-    } else {
-      Console.WriteLine("There is no such name");
-    }
+const string targetName = "john";
+
+string humanReadableName = char.ToUpper(targetName[0]) + targetName[1..];
+
+Console.WriteLine(name == targetName ? $"Hello, {humanReadableName}" : "There is no such name");
 
     //There is a numeric array at the input, it is necessary to output array elements that are multiples of 3
 
@@ -40,7 +40,8 @@ public class Task {
     //Can this sequence be considered correct?
     //If the answer to the previous question is “no”, then what needs to be changed in it to make it correct?
 
-    //Answer: No, proper sequence has to be: [((())()(()))]
+    //Answer: No, every opening bracket must have a corresponding closing bracket.
+    //To fix it, replace the second-to-last "]" with ")": [((())()(()))].
 
   }
 
