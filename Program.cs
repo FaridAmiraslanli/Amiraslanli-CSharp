@@ -4,7 +4,6 @@ public class Task
 {
     public static void Main(string[] args)
     {
-
         //If the entered number is greater than 7, then print “Hello”
 
         int number = GetValidNumber();
@@ -43,27 +42,21 @@ public class Task
 
         //Answer: No, every opening bracket must have a corresponding closing bracket.
         //To fix it, replace the second-to-last "]" with ")": [((())()(()))].
-
     }
 
     static int GetValidNumber()
     {
-
         Console.Write("Please enter an integer: ");
-
         try
         {
             int number = int.Parse(Console.ReadLine() ?? "");
             return number;
-
-
         }
         catch (FormatException)
         {
             Console.WriteLine("Invalid input. Try again.");
             return GetValidNumber();
         }
-
     }
 
     static string GetValidName()
@@ -79,13 +72,11 @@ public class Task
             if (!string.IsNullOrWhiteSpace(name))
             {
                 nameIsEmpty = false;
-
             }
             else
             {
                 Console.WriteLine("Name cannot be empty.");
             }
-
         }
         return name;
     }
