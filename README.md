@@ -19,7 +19,8 @@ The program takes a numeric array as input and prints elements that are multiple
 Can this sequence be considered correct?  
 If the answer to the previous question is “no”, then what needs to be changed in it to make it correct?
  
-**Answer:** No, the correct sequence should be `[((())()(()))]`.
+**Answer:** No, every opening bracket must have a corresponding closing bracket.  
+To fix it, replace the second-to-last "]" with ")": `[((())()(()))]`.
 
 ## Features
 
